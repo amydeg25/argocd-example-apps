@@ -5,7 +5,7 @@ metadata:
   annotations:
     argocd.argoproj.io/refresh: "true"
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
